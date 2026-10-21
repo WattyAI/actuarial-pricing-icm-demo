@@ -1,0 +1,12 @@
+# Four-eye checklist
+- [ ] The report's data description matches the supplied sources, field mappings, and approved modelling population.
+- [ ] Periods are aligned at the appropriate grain; excluded periods, unmatched records, and reconciliation differences are disclosed where applicable.
+- [ ] Transformations and exclusions match the data-quality report and transformation log; none are silently applied.
+- [ ] Assumptions and model choices match the approved register; no benchmark-specific variable, threshold, or method is treated as a universal default.
+- [ ] Figures and conclusions in the report match the relevant run outputs; no unsupported values or claims are introduced.
+- [ ] Every material judgement, limitation, sensitivity, and open decision is disclosed.
+- [ ] The report structure and language are appropriate to the intended audience and applicable documentation requirements.
+- [ ] If a challenger or sensitivity analysis was used, its evidence, limitations, and gate status are accurately represented. Do not present a challenger as production without recorded approval.
+- [ ] Portfolio or other model checks required by the selected specification are reported and reconcile to their source outputs.
+- [ ] Nothing in the report exceeds what the underlying data and analysis support.
+- [ ] Optional inputs and methods used in the analysis were confirmed by the actuary and are correctly described.

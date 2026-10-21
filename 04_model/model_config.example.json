@@ -1,0 +1,27 @@
+{
+  "policy_data": "path/to/prepared_policy_period_data.csv",
+  "policy_columns": {
+    "period": "observation_period",
+    "exposure": "earned_exposure",
+    "claim_count": "number_of_claims",
+    "policy_id": "policy_id"
+  },
+  "features": {
+    "categorical": [],
+    "numeric": []
+  },
+  "frequency": {
+    "family": "poisson"
+  },
+  "claims_data": null,
+  "claim_columns": {
+    "policy_id": "policy_id",
+    "period": "observation_period",
+    "amount": "claim_amount"
+  },
+  "severity": {
+    "family": "gamma",
+    "cap": null
+  },
+  "output_dir": "04_model/output/generic"
+}
